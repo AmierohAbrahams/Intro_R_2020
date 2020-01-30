@@ -27,13 +27,11 @@ lam_slice <- laminaria %>%
 lam_kom <- laminaria %>%
   filter(site == "Kommetjie")
 
+##    %>% - Shift Cntrl M
 
 laminaria %>% # Tell R which dataset to use
   filter(site == "Kommetjie") %>% # Filter out only records from Kommetjie
   nrow() # Count the number of remaining rows
-
-#############
-
 
 
 
